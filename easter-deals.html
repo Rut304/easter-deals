@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last-Minute Easter Deals - Ships by Easter!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f9f3e9;
+            color: #333;
+        }
+        .banner {
+            background-color: #ff6b88;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #8bd3dd;
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+            background: #f5f5f5;
+            padding: 10px;
+        }
+        .product-content {
+            padding: 15px;
+        }
+        .product-title {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #333;
+        }
+        .product-price {
+            font-weight: bold;
+            color: #e63946;
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        .product-description {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        .buy-button {
+            display: inline-block;
+            background-color: #ff6b88;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .buy-button:hover {
+            background-color: #e63946;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #8bd3dd;
+            color: white;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        🐰 LIMITED TIME - Ships by Easter! Order by March 10th 🐰
+    </div>
+    
+    <div class="header">
+        <h1>Last-Minute Easter Deals</h1>
+        <p>Prime-eligible decorations that will arrive in time for Easter</p>
+    </div>
+    
+    <div class="container">
+        <div class="intro">
+            <h2>With Easter just two weeks away, it's time to spruce up your home with festive decorations that will arrive in time for the holiday.</h2>
+            <p>Thanks to Amazon Prime's fast shipping, you can still get everything you need without the last-minute stress. Here are our top picks for Easter decorations that ship free with Prime.</p>
+        </div>
+        
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71vXQ5VZ5BL._AC_SL1500_.jpg" alt="Happy Easter Decorations Banner" class="product-image">
+                <div class="product-content">
+                    <h3 class="product-title">Happy Easter Decorations Banner</h3>
+                    <div class="product-price">$12.99</div>
+                    <p class="product-description">This beautiful watercolor-style Easter banner is perfect for adding a festive touch to your home. Measuring 6 feet long, it features cheerful Easter-themed illustrations.</p>
+                    <a href="https://www.amazon.com/Happy-Easter-Decorations-Banner-Watercolor/dp/B0G82TLHF5" class="buy-button" target="_blank">Get it on Amazon</a>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/61B5+5VJYJL._AC_UY879_.jpg" alt="Easter Sweaters for Women" class="product-image">
+                <div class="product-content">
+                    <h3 class="product-title">Easter Sweaters for Women</h3>
+                    <div class="product-price">$29.99</div>
+                    <p class="product-description">Celebrate the season in style with this adorable Easter-themed sweater. The lightweight, breathable fabric makes it perfect for spring weather.</p>
+                    <a href="https://www.amazon.com/Womens-Sleeve-Easter-Holiday-Graphic/dp/B0GJ5VQ8CH" class="buy-button" target="_blank">Get it on Amazon</a>
+                </div>
+            </div>
+            
+            <!-- Complementary Items -->
+            <div class="product-card">
+                <div class="product-content">
+                    <h3 class="product-title">Complete Your Easter Setup</h3>
+                    <ul style="text-align: left; padding-left: 20px;">
+                        <li><strong>Easter Egg Dye Kit</strong> - $9.99</li>
+                        <li><strong>Pastel Table Runner</strong> - $15.99</li>
+                        <li><strong>Bunny-Shaped Serving Platter</strong> - $18.99</li>
+                    </ul>
+                    <p style="margin-top: 15px;">Browse thousands more Prime-eligible Easter items on Amazon.</p>
+                    <a href="https://www.amazon.com/" class="buy-button" target="_blank">Shop Amazon Easter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Disclosure: As an Amazon Associate, we earn from qualifying purchases.</p>
+        <p>© 2026 Easter Deals. All products ship free with Amazon Prime.</p>
+    </div>
+</body>
+</html>
